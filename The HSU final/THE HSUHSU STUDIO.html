@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The_hsu_hsu_studio</title>
+  <!-- boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!-- jQuery -->
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery-3.6.0.js"><\/script>')</script>
+  <!--go to top的箭頭icon -->
+  <link href="css/material-design-iconic-font-2.2.0/css/material-design-iconic-font.min.css" rel="stylesheet" />
+  <!--go to top 點擊效果-->
+  <link href="css/Waves-0.7.6/dist/waves.min.css" rel="stylesheet" />
+  <!-- 字型 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Train+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bayon&family=Oswald:wght@600&display=swap');
+  </style>
+  <!-- 匯入CSS檔 -->
+  <link rel="stylesheet" href="./the_hsu.css">
+
+
+
+
+</head>
+
+<body>
+  <div style="background-color: #FFEBC0">
+    <img src="./素材/大LOGO正方形.jpg" id="logo" class="img-fluid">
+  </div>
+
+  <header class="sticky-top">
+  
+
+    <!-- RWD按鈕 -->
+    <div id="menu-bar" class="fas fa-bars sticky-top "></div>
+    <nav class="navbar" style="display: block;">
+      <a href="#items">全部商品</a>
+      <a href="#about">關於煦煦</a>
+      <a href="#info">購物須知</a>
+      <a href="#order" data-bs-toggle="modal" data-bs-target="#orderModal">訂單查詢</a>
+      <a href="#contact">聯絡我們</a>
+      <a href="https://www.instagram.com/thehsu_studio/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    </nav>
+  </header>
+
+  </header>
+  <section>
+    <section class="home" id="home">
+      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./素材/輪播圖1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./素材/輪播圖3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./素材/輪播圖4.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </section>
+
+  <main id="items">
+
+    <h1>ORDER YOUR CAKE</h1>
+    <p>Check out our seasonal cakes that can be shipped right to your door!</p>
+    <div class="row">
+      <figure class="figure col-sm-6" style="text-align: right;" data-bs-toggle="modal" data-bs-target="#buyModal">
+        <div class="btn">
+          <img src="./素材/蛋糕捲/S__45547572.jpg" class="figure-img img-fluid" style="width: 18rem;" alt="...">
+          <a href="#" id="test">BUY NOW</a>
+          <figcaption class="figure-caption">夏末蜜桃蛋糕捲</figcaption>
+        </div>
+
+      </figure>
+      <figure class="figure col-sm-6" style="text-align: left;">
+        <div class="btn">
+          <img src="./素材/蛋糕捲/巧克力捲2.jpg" class="figure-img img-fluid" style="width: 18rem;" alt="...">
+          <a href="#" id="test">BUY NOW</a>
+          <figcaption class="figure-caption">野莓濃可可生乳捲</figcaption>
+        </div>
+      </figure>
+
+      <figure class="figure col-sm-6" style="text-align: right;">
+        <div class="btn">
+          <img src="./素材/蛋糕捲/S__45547570.jpg" class="figure-img img-fluid" style="width: 18rem;" alt="...">
+          <a href="#" id="test">BUY NOW</a>
+          <figcaption class="figure-caption">日本小山園焙茶X無花果蛋糕捲</figcaption>
+        </div>
+      </figure>
+      <figure class="figure col-sm-6" style="text-align: left;">
+        <div class="btn">
+          <img src="./素材/蛋糕捲/芒果蛋糕捲.jpg" class="figure-img img-fluid" style="width: 18rem;" alt="...">
+          <a href="#" id="test">BUY NOW</a>
+          <figcaption class="figure-caption">仲夏芒果蛋糕捲</figcaption>
+        </div>
+      </figure>
+      <figure class="figure col-sm-6" style="text-align: right;">
+        <div class="btn">
+          <img src="./素材/蛋糕捲/抹茶巴斯克正方形.jpg" class="figure-img img-fluid" style="width: 18rem;" alt="...">
+          <a href="#" id="test">BUY NOW</a>
+          <figcaption class="figure-caption">抹茶巴斯克</figcaption>
+        </div>
+      </figure>
+      <figure class="figure col-sm-6" style="text-align: left;">
+        <div class="btn">
+          <img src="./素材/蛋糕捲/S__45547573.jpg" class="figure-img img-fluid" style="width: 18rem" alt="...">
+          <a href="#" id="test">BUY NOW</a>
+          <figcaption class="figure-caption">微醺提拉米蘇</figcaption>
+        </div>
+      </figure>
+    </div>
+    <hr>
+    <h1>ORDER YOUR DACQUOISE</h1>
+    <p>Check out our current dacquoise that can be shipped right to your door!</p>
+    <div class="row">
+      <figure class="figure col-sm-6" style="text-align: right;" data-bs-toggle="modal" data-bs-target="#buyModal_2">
+        <div class="btn">
+          <img src="./素材//紅豆剖面.png" class="figure-img img-fluid" style="width: 18rem;" alt="...">
+          <a href="#" id="test">BUY NOW</a>
+          <figcaption class="figure-caption">鹽之花奶油紅豆</figcaption>
+        </div>
+
+      </figure>
+      <figure class="figure col-sm-6" style="text-align: left;">
+        <div class="btn">
+          <img src="./素材/焙茶剖面.jpg" class="figure-img img-fluid" style="width: 18rem;" alt="...">
+          <a href="#" id="test">BUY NOW</a>
+          <figcaption class="figure-caption">日本小山園焙茶X鹽之花奶霜</figcaption>
+        </div>
+      </figure>
+
+      <figure class="figure col-sm-6" style="text-align: right;">
+        <div class="btn">
+          <img src="./素材/抹茶剖面.jpg" class="figure-img img-fluid" style="width: 18rem;" alt="...">
+          <a href="#" id="test">BUY NOW</a>
+          <figcaption class="figure-caption">日本小山園抹茶X鹽之花奶霜</figcaption>
+        </div>
+      </figure>
+      <figure class="figure col-sm-6" style="text-align: left;">
+        <div class="btn">
+          <img src="./素材/馬黑茶剖面.jpg" class="figure-img img-fluid" style="width: 18rem;" alt="...">
+          <a href="#" id="test">BUY NOW</a>
+          <figcaption class="figure-caption">法國瑪黑茶x海鹽焦糖流心</figcaption>
+        </div>
+      </figure>
+      <figure class="figure col-sm-6" style="text-align: right;">
+        <div class="btn">
+          <img src="./素材/鐵觀音剖面.jpg" class="figure-img img-fluid" style="width: 18rem;" alt="...">
+          <a href="#" id="test">BUY NOW</a>
+          <figcaption class="figure-caption">炭焙鐵觀音x鹽之花奶霜</figcaption>
+        </div>
+      </figure>
+      <figure class="figure col-sm-6" style="text-align: left;">
+        <div class="btn">
+          <img src="./素材/焙茶剖面.jpg" class="figure-img img-fluid" style="width: 18rem" alt="...">
+          <a href="#" id="test">BUY NOW</a>
+          <figcaption class="figure-caption">日本小山園焙茶X鹽之花奶霜</figcaption>
+        </div>
+      </figure>
+    </div>
+
+
+  </main>
+
+
+  <!-- 關於煦煦 -->
+
+  <section>
+    <span class="box-container" id="about" style="background-image: url(./素材/烤箱橫向\ 裁切版.jpg);">
+      <div>
+        <h1>｜一個平凡上班族 夜晚的單人工作室｜</h1>
+        <hr>
+        <h5>
+          把我喜歡的甜點，分享給我喜歡的你們
+        </h5>
+        <h5>
+          天然無添加，希望我喜歡的你們吃得安心
+        </h5>
+        <hr>
+        <div style="vertical-align: top;">
+          自家烘培達克瓦茲/蛋糕捲/巴斯克乳酪
+        </div>
+      </div>
+
+
+    </span>
+
+  </section>
+
+
+  </section>
+  <!-- 如何訂購 -->
+  <section class="box-container" id="info">
+    <div>
+      <div>
+        <h1>HOW TO ORDER</h1>
+      </div>
+      <div>
+        <h3><i class="fa-solid fa-comment-dots"></i>如何訂購</h3>
+        <p>下訂單後，會於24小時內回傳訂購資訊及匯款金額，請於3天內完成匯款動作，收到款項後即完成訂購，付款完成後，不接受退換貨以及品項更換，請見諒</p>
+        <h3><i class="fa-solid fa-comments-dollar"></i>付款方式</h3>
+        <p>目前僅提供銀行轉帳方式匯款</p>
+
+      </div>
+      <hr>
+      <div>
+        <h1>DELIVERY</h1>
+      </div>
+      <div>
+        <h3><i class="fa-solid fa-clock"></i>出貨時間</h3>
+        <p>由於煦煦為一人工作室，且白天有正職工作，所以出貨時間為訂購順序依序出貨，所以不接受急單，謝謝您的理解</p>
+        <h3><i class="fa-solid fa-truck"></i>冷凍宅配</h3>
+        <p>
+          適逢節日宅配繁盛期，黑貓不保證隔日到貨，可接受再下單呦
+          （例如1/1寄出，不保證是1/2到貨，有可能是2-3天後到貨）</p>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 訂單查詢 -->
+  <section>
+    <div class="modal fade" id="orderModal">
+      <div class="modal-dialog">
+        <div class="modal-content" id="orderModal_content">
+          <!-- header -->
+          <div class="modal-header" id="orderModal_header">
+            <h3>訂單查詢</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <!-- body -->
+          <div class="modal-body" id="orderModal_body">
+            <form>
+              <div class="form-group">
+                <label for="">訂購人姓名:</label>
+                <input type="text" class="account form-control">
+              </div>
+              <div class="form-group">
+                <label for="">訂單編號:</label>
+                <input type="text" class="password form-control">
+              </div>
+              <br>
+              <!-- 按鈕 -->
+              <button type="button" class="btn" id="orderModal_btn">確定送出</button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 訂購Modal -->
+  <section>
+
+    <div class="modal fade" id="buyModal">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <!-- header -->
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <!-- body -->
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col"><img src="./素材//蛋糕捲/S__45547572.jpg" style="width: 18rem;"></div>
+                <div class="col">
+                  <h3>夏末蜜桃蛋糕捲</h3>
+                  <h5>$480</h5>
+                  <h5>選用充滿香氣的山梨水蜜桃，從側面可以看到的厚實奶油餡，裡頭夾有鮮嫩多汁的水蜜桃，一入口濃濃果香直擊味蕾。</h5>
+
+                  <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample"
+                    aria-expanded="false" aria-controls="collapseWidthExample">
+                    產品資訊 <i class="fa-sharp fa-solid fa-arrow-turn-down"></i>
+                  </button>
+
+                  <div style="min-height: 120px;">
+                    <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                      <div class="card card-body" style="width: 400px; border-radius: 5px;margin: 15px;">
+                        <div style="background-color: rgb(216, 173, 152);">原料| </div>
+                        <P>水蜜桃、鮮奶油、牛奶、低筋麵粉、香草精、蛋、砂糖</P>
+                        <div style="background-color: rgb(216, 173, 152);">保存方式|</div>
+                        <p>
+                          請冷藏保存。 三天內未食用完畢請放置冷凍，如欲食用請放置冷藏約10分鐘再食用(內餡口感近似冰淇淋，蛋糕依然綿密有彈性)。
+                          冷凍退冰請勿直接放置長溫下，溫差太大會使蛋糕口感變差也易變質，特別是夏天季節。</p>
+                        <div style="background-color: rgb(216, 173, 152);">保存天數|</div>
+                        <p>冷凍10-14天</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="vertical-align:auto;"> <span style="padding: 70px;">數量|</span><i
+                      class="fa-sharp fa-solid fa-minus" style="cursor: pointer;" onclick="minus()"></i><span
+                      id="quantity" style="padding: 30px;">0</span><i class="fa-sharp fa-solid fa-plus" onclick="plus()"
+                      style="cursor: pointer;"></i></div>
+                  <br><br>
+                  <div class="shape-ex3 ms-auto">
+                    <p style="font-weight: bold;" onclick="total()">加入購物車</p>
+                  </div>
+
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- 訂購Modal2_達克瓦茲 -->
+  <section>
+
+    <div class="modal fade" id="buyModal_2">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <!-- header -->
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <!-- body -->
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col"><img src="./素材/紅豆商品圖.jpg" style="width: 18rem;"></div>
+                <div class="col">
+                  <h3>鹽之花奶油紅豆</h3>
+                  <h5>$120</h5>
+                  <h5>精選粒粒飽滿口感軟綿細緻的台灣紅豆，用少許有機冰糖小火慢煮數小時至濃稠，加上法國AOP發酵奶油，上頭再灑上法國鹽之花，兩者加在一起，好吃又不罪惡。</h5>
+                  <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample"
+                    aria-expanded="false" aria-controls="collapseWidthExample">
+                    產品資訊 <i class="fa-sharp fa-solid fa-arrow-turn-down"></i>
+                  </button>
+                  <div style="min-height: 120px;">
+                    <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                      <div class="card card-body" style="width: 400px; border-radius: 5px;margin: 15px;">
+                        <div style="background-color: rgb(216, 173, 152);">原料| </div>
+                        <P>紅豆、奶油、鹽之花、糖粉、中筋麵粉、杏仁粉、蛋、冰糖</P>
+                        <div style="background-color: rgb(216, 173, 152);">保存方式|</div>
+                        <p>
+                          達克瓦茲收到後，請冷凍保存（冷藏餅殼會變得濕濕的真的不好吃！），食用時提前5-10分鐘退冰解凍</p>
+                        <div style="background-color: rgb(216, 173, 152);">保存天數|</div>
+                        <p>冷凍10-14天</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="vertical-align:auto;"> <span style="padding: 70px;">數量|</span><i
+                      class="fa-sharp fa-solid fa-minus" style="cursor: pointer;" onclick="minus()"></i><span
+                      id="quantity_2" style="padding: 30px;">0</span><i class="fa-sharp fa-solid fa-plus"
+                      onclick="plus()" style="cursor: pointer;"></i></div>
+                  <br><br>
+                  <div class="shape-ex3 ms-auto">
+                    <p style="font-weight: bold;" onclick="total()">加入購物車</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+
+  </section>
+
+
+
+  <section style="background-image: url(./素材/窗戶倒影\ 橫.jpg);">
+    <div class="box-container" id="contact">
+      <div>
+        <form>
+          <h1>CONTACT WITH US</h1>
+          <div>
+            <label for="account">姓名: </label><br>
+            <input type="text" name="user" id="account" required><br>
+            <label for="email">信箱:</label><br>
+            <input type="email" name="email" id="mail" required /><br>
+            <label for="telphone">聯絡電話:</label><br>
+            <input type="tel" id="telphone" required>
+            <br>
+          </div>
+          <br>
+          <textarea rows="5" cols="25" placeholder="想對煦煦說的話.."></textarea>
+          <br>
+          <button>確定送出</button>
+        </form>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+
+    <div>
+      <i class="fa-brands fa-square-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+    </div>
+    © 2022 Company, Inc
+
+  </footer>
+
+  <!--Go to Top button-->
+  <a href="#" class="my-btn-goTop"><i class="fa-sharp fa-solid fa-arrow-up"></i></a>
+
+  <!--引用jQuery-->
+  <script src="js/jQuery.js"></script>
+  <!--點擊效果-->
+  <script src="Waves-0.7.6/dist/waves.min.js"></script>
+
+  <!--go to top script-->
+  <script type="text/javascript">
+    $(function () {
+      window.onscroll = function () {
+
+        /*當瀏覽器捲軸往下捲100px*/
+        const px = 100;
+        if (document.body.scrollTop > px || document.documentElement.scrollTop > px) {
+          $("a.my-btn-goTop").addClass("show");/*顯示*/
+
+        } else {
+          $("a.my-btn-goTop").removeClass("show");/*隱藏*/
+        }
+      };
+    });
+  </script>
+  <!--初始化並執行 Ripple 效果(使用者點擊的回饋效果)-->
+  <script type="text/javascript">
+    Waves.attach('.my-btn-goTop', []);//go to top 超連結 
+    Waves.init();
+  </script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="./JS/script.js"></script>
+
+</body>
+
+
+</html>
